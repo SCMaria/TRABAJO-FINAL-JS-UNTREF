@@ -1,0 +1,19 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Mooli&display=swap');
+
+
+.miBoton{
+    color: green;
+
+}
+h1{
+    font-family: 'Architects Daughter', cursive;
+    display:flex;
+    justify-content: space-around;
+}
+li{
+    font-family: 'Mooli', sans-serif;
+     display: inline-flex;
+    padding: 1em;
+}
+
