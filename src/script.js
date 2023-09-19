@@ -1,6 +1,6 @@
 const fragment = document.createDocumentFragment();
 
-fetch('https://fakestoreapi.com/products/')
+fetch("products.json")
             .then(res=>res.json())
             .then(json=>window.localStorage.products = JSON.stringify(json));
 
@@ -10,13 +10,13 @@ console.log(products);
 const ul = document.querySelector('#product-list');
 
 if(ul){
-    products.forEach(product => {
+    products.forEach(function(product,index) {
         let li=fragment.appendChild(document.createElement("li"));
-        li.textContent=product.title;
+        li.textContent=product.codigo;
         let icono = document.createElement("img");
         icono.src="img/boton-mas.png"
         let btn = fragment.appendChild(document.createElement("a"));
-        btn.addEventListener("click",function(event){ saveId(product.id); }, false);
+        btn.addEventListener("click",function(event){ saveId(index); }, false);
         btn.setAttribute('href', 'product.html');
         btn.classList.add("miBoton");
         let br = fragment.appendChild(document.createElement("br"));
@@ -30,15 +30,16 @@ if(ul){
 
 function saveId(id){
     window.localStorage.productClick = id;
+
 }
 
 
 const h1 = document.querySelector('#title');
 const description = document.querySelector('#description');
-const product = products.find((product) => product.id == window.localStorage.productClick);
-console.log(product);
+const product = products[window.localStorage.productClick];
+console.log(products);
 
 if(h1){
-    h1.textContent = product.title;
-    description.textContent = product.description;
+    h1.textContent = product.codigo;
+    description.textContent = product.descripcion;
 }
