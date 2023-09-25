@@ -2,7 +2,7 @@
     {
         "codigo": "Producto 1",
         "descripcion": "Descripcion del producto 1",
-        "imagen": "images/producto1.webp",
+        "imagen": "imagenes TP2/jabon-natural-cuidado-personal.jpg",
         "detalle": "Descripcion",
         "precio": 1234.00,
         "puntuacion": "*****"

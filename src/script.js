@@ -37,9 +37,10 @@ function saveId(id){
 const h1 = document.querySelector('#title');
 const description = document.querySelector('#description');
 const product = products[window.localStorage.productClick];
-console.log(products);
+const img = document.querySelector('#img');
 
 if(h1){
     h1.textContent = product.codigo;
     description.textContent = product.descripcion;
+    img.src = product.imagen;
 }
