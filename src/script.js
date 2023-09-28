@@ -17,16 +17,8 @@ const lista = async () => {
     products = JSON.parse(products);
   }
 
-  createList(products);
 };
 
-const createList = (products) => {
-    products.forEach((product) => {
-      const li = document.createElement("li");
-      li.textContent = product.title;
-      productList.appendChild(li);
-    });
-};
 lista();
 let html = "";
 if(lista){
