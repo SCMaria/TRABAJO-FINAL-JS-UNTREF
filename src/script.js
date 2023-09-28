@@ -1,16 +1,35 @@
-const fragment = document.createDocumentFragment();
 
-fetch("products.json")
-            .then(res=>res.json())
-            .then(json=>window.localStorage.products = JSON.stringify(json));
 
-const products = JSON.parse(window.localStorage.products);
-console.log(products);
+const productList = document.querySelector("#product-list");
+let products = [];
+const lista = async () => {
+    productList.innerHTML = "";
+    products = localStorage.getItem("products");
 
-const ul = document.querySelector('#product-list');
-let html = '';
 
-if(ul){
+    if (products == null) {
+        const response = await fetch("json/products.json");
+        product = await response.json();
+
+        localStorage.setItem("products", JSON.stringify(product));
+  }
+  if (typeof products == "string") {
+    products = JSON.parse(products);
+  }
+
+  createList(products);
+};
+
+const createList = (products) => {
+    products.forEach((product) => {
+      const li = document.createElement("li");
+      li.textContent = product.title;
+      productList.appendChild(li);
+    });
+};
+lista();
+let html = "";
+if(lista){
     products.forEach(function(product,index) {
         html += '<div class="col-xs-12 col-md-6 bootstrap snippets bootdeys">' + 
                     '<div class="product-content product-wrap clearfix">' +
