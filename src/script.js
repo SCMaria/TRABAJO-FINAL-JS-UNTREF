@@ -52,15 +52,6 @@ if(lista){
                                         '<div class="col-md-6 col-sm-6 col-xs-6">' +
                                             '<a href="product.html" class="btn btn-success" onclick="saveId('+ index +')">Ver Detalle</a>' +
                                         '</div>' +
-                                        '<div class="col-md-6 col-sm-6 col-xs-6">' +
-                                            '<div class="rating">' +
-                                                '<label for="stars-rating-5"><i class="fa fa-star"></i></label>' +
-                                                '<label for="stars-rating-4"><i class="fa fa-star"></i></label>' +
-                                                '<label for="stars-rating-3"><i class="fa fa-star text-primary"></i></label>' +
-                                                '<label for="stars-rating-2"><i class="fa fa-star text-primary"></i></label>' +
-                                                '<label for="stars-rating-1"><i class="fa fa-star text-primary"></i></label>' +
-                                            '</div>' +
-                                        '</div>' +
                                     '</div>' +
                                 '</div>' +
                             '</div>' +
@@ -76,23 +67,4 @@ if(lista){
 function saveId(id){
     window.localStorage.productClick = id;
 
-}
-
-
-const h1 = document.querySelector('#title');
-const description = document.querySelector('#description');
-const product = products[window.localStorage.productClick];
-const img = document.querySelector('#img');
-
-if(h1){
-    h1.textContent = product.codigo;
-    description.textContent = product.descripcion;
-    img.src = product.imagen;
-    let lista = document.getElementById('puntos_claves');
-    let listaHtml = '';
-    product.claves.forEach(clave => {
-        listaHtml += '<li><i class="fa fa-check text-success"></i>'+ clave +'</li>';
-    });
-    console.log(listaHtml);
-    lista.innerHTML = listaHtml;
 }
