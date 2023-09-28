@@ -142,10 +142,10 @@ body{
 }
 
 .load-more-btn {
-    background-color: #21c2f8;
-    border-bottom: 2px solid #037ca5;
+    background-color: #22af6d;
+    border-bottom: 2px solid #27a86c;
     border-radius: 2px;
-    border-top: 2px solid #0cf;
+    border-top: 2px solid rgb(51, 172, 92);
     margin-top: 20px;
     padding: 9px 0;
     width: 100%
@@ -344,7 +344,7 @@ body{
 }
 
 .img-responsive {
-    width: 250px;
+    width: 250PX;
     display: flex;
     flex-direction: column;
 

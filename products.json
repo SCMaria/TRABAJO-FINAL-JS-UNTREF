@@ -46,5 +46,29 @@
             "Clave 1",
             "Clave 2"
         ]
+    },
+    {
+        "codigo": "Producto 5",
+        "descripcion": "Descripcion del producto 5",
+        "imagen": "imagenes TP2/jabon-natural-cuidado-personal.jpg",
+        "detalle": "Descripcion",
+        "precio": 1234.00,
+        "puntuacion": "*****",
+        "claves": [
+            "Clave 1",
+            "Clave 2"
+        ]
+    },
+    {
+        "codigo": "Producto 6",
+        "descripcion": "Descripcion del producto 6",
+        "imagen": "imagenes TP2/jabon-natural-cuidado-personal.jpg",
+        "detalle": "Descripcion",
+        "precio": 1234.00,
+        "puntuacion": "*****",
+        "claves": [
+            "Clave 1",
+            "Clave 2"
+        ]
     }
 ]

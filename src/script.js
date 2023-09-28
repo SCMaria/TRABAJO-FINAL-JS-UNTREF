@@ -17,7 +17,7 @@ if(ul){
                         '<div class="row">' + 
                             '<div class="col-md-5 col-sm-12 col-xs-12">' +
                                 '<div class="product-image">' + 
-                                    '<img src="'+ product.imagen +'class="img-responsive">' +
+                                '<img src="'+ product.imagen +'" alt="194x228" height="228" class="img-responsive">' +
                                     '</span>' +
                                 '</div>' +
                             '</div>' +
