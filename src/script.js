@@ -15,14 +15,16 @@ const lista = async () => {
   }
   if (typeof products == "string") {
     products = JSON.parse(products);
-  }
 
+  }
+  
 };
 
 lista();
+
 let html = "";
 if(lista){
-    products.forEach(function(product,index) {
+    products.forEach(function(product,index){
         html += '<div class="col-xs-12 col-md-6 bootstrap snippets bootdeys">' + 
                     '<div class="product-content product-wrap clearfix">' +
                         '<div class="row">' + 
