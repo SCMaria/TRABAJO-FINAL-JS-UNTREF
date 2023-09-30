@@ -1,5 +1,3 @@
-
-
 const productList = document.querySelector("#product-list");
 let products = [];
 const lista = async () => {
@@ -9,21 +7,28 @@ const lista = async () => {
 
     if (products == null) {
         const response = await fetch("products.json");
-        product = await response.json();
+        products = await response.json();
 
-        localStorage.setItem("products", JSON.stringify(product));
+        localStorage.setItem("products", JSON.stringify(products));
   }
   if (typeof products == "string") {
     products = JSON.parse(products);
 
   }
+
+  listado(products);
   
 };
 
 lista();
 
-let html = "";
-if(lista){
+function saveId(id){
+    window.localStorage.productClick = id;
+
+}
+
+function listado(products){
+    let html = "";
     products.forEach(function(product,index){
         html += '<div class="col-xs-12 col-md-6 bootstrap snippets bootdeys">' + 
                     '<div class="product-content product-wrap clearfix">' +
@@ -64,9 +69,4 @@ if(lista){
     });
 
     document.getElementById('section').innerHTML = html;
-}
-
-function saveId(id){
-    window.localStorage.productClick = id;
-
 }
