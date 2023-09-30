@@ -1,75 +1,77 @@
 [
     {
         "codigo": "Jabón de Glicerina",
-        "descripcion": "Jabón para cuerpo, manos y cara ",
+        "descripcion": "Jabón para cuerpo, manos y cara.",
         "imagen": "imagenes TP2/jabon-glicerina.jpg",
         "detalle": "Elaborado completamente artesanal,contiene glicerina vegetal con aceite de coco y aceites esenciales.Vienen sueltos , peso aproximdo 70 grs. ",
         "precio": "250.00",
         "puntuacion": "*****",
         "claves": [
-            "Libre de Sulfatos",
-            "Vegano , cruelty free",
-            "Biodegradable"
+            "Libre de Sulfatos.",
+            "Vegano , cruelty free.",
+            "Biodegradable."
         ]
     },
     {
-        "codigo": "Producto 2",
-        "descripcion": "Descripcion del producto 2",
+        "codigo": "Sorbete de Aluminio ",
+        "descripcion": "Sorbete de Aluminio + cepillo de limpieza.",
         "imagen": "imagenes TP2/bombilla-acero.png",
-        "detalle": "Descripcion",
+        "detalle": "Reutilizable,ideal para evitar el uso de descartables cuando estamos afuera de casa.Son de insdusria Nacional.El largo es de 20cm. livianos para que puedan acompañarte todos los días.",
         "precio": "120.00",
         "puntuacion": "****",
         "claves": [
-            "Clave 1",
-            "Clave 2"
+            "Biodegradables.",
+            "Vida útil de 2 años aprox.",
+            "Fácil de lavar. "
         ]
     },
     {
         "codigo": "Peines de Madera ",
-        "descripcion": "Peines de madera paraiso 100% natural ",
+        "descripcion": "Peines de madera paraiso 100% natural.",
         "imagen": "imagenes TP2/peine.jpg",
         "detalle": "Son de indutria nacional ,sin tratamiento quimico ni ceras.Anti frizz(no producen estática).Disponibles con y sin mango, redondos o cuadrados.",
         "precio": "350.00",
-        "puntuacion": "*****",
+        "puntuacion": "****",
         "claves": [
-            "Reducen el consumo de plástico",
-            "Evita la caída del cabello"
+            "Reducen el consumo de plástico.",
+            "Evita la caída del cabello."
         ]
     },
     {
-        "codigo": "Producto 4",
-        "descripcion": "Descripcion del producto 4",
+        "codigo": "Hisopos de Madera",
+        "descripcion": "Hisopos de Madera 100% natural.",
         "imagen": "imagenes TP2/hisopos.jpg",
-        "detalle": "Descripcion",
-        "precio": "700.00",
-        "puntuacion": "*****",
+        "detalle": "Con algodón en los extremos.El contenido es de 140 unidades presentados en una bolsa de lienzo. ",
+        "precio": "300.00",
+        "puntuacion": "***",
         "claves": [
-            "Clave 1",
-            "Clave 2"
+            "completamente Biodegradables.",
+            "Algodón extra Soft."
         ]
     },
     {
         "codigo": "Cepillo de Dientes",
-        "descripcion": "Cepillo de dientes de bambú ",
+        "descripcion": "Cepillo de dientes de bambú.",
         "imagen": "imagenes TP2/cepillo.jpg",
         "detalle": "Realizado con bambú una de las plantas con mayor tasa de crecimiento del mundo,el mango y la caja son amigables con el medio ambiente.Hay variedad para adultos y niños ,serda suave, media o dura. ",
         "precio": 400.00,
         "puntuacion": "*****",
         "claves": [
-            "97% biodegradables",
+            "97% biodegradables.",
             "Vida útil de 3 meses aprox."
         ]
     },
     {
-        "codigo": "Producto 6",
-        "descripcion": "Descripcion del producto 6",
+        "codigo": "Rollo de Jade",
+        "descripcion": "Rollo con 90% piedra Jade Natural.",
         "imagen": "imagenes TP2/rollo de jade.png",
-        "detalle": "Descripcion",
+        "detalle": "Excelente para masajes faciales, se recomienda utilizarla por la noche después de tu rutina de limpieza.Reduce la hinchazón de la cara. ",
         "precio": 1234.00,
         "puntuacion": "*****",
         "claves": [
-            "Clave 1",
-            "Clave 2"
+            "Mejora la circulación de la sangre.",
+            "Libera retención de líquidos.",
+            "Contribuye a drenar las toxinas de la piel."
         ]
     }
 ]
