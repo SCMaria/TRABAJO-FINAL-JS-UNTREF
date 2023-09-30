@@ -16,7 +16,7 @@ if (h1) {
     description.textContent = product.descripcion;
     img.src = product.imagen;
     detalle.textContent = product.detalle;
-    precio.textContent += "$" + product.precio + "";
+    precio.textContent += "$" + product.precio;
     let lista = document.getElementById("puntos_claves");
     let listaHtml = "";
     product.claves.forEach((clave) => {

@@ -8,7 +8,7 @@ const lista = async () => {
 
 
     if (products == null) {
-        const response = await fetch("json/products.json");
+        const response = await fetch("products.json");
         product = await response.json();
 
         localStorage.setItem("products", JSON.stringify(product));
@@ -50,7 +50,7 @@ if(lista){
                                 '<div class="product-info smart-form">' +
                                     '<div class="row">' +
                                         '<div class="col-md-6 col-sm-6 col-xs-6">' +
-                                            '<a href="product.html" class="btn btn-success" onclick="saveId('+ index +')">Ver Detalle</a>' +
+                                            '<a href="product.html" class="btn btn-success" onclick="saveId('+ index +')">+info</a>' +
                                         '</div>' +
                                     '</div>' +
                                 '</div>' +

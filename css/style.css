@@ -1,13 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Mooli&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Open+Sans:wght@400;500&display=swap');
+
 
 .miBoton{
     color: green;
 
 }
-h1{
-    font-family: 'Architects Daughter', cursive;
+h1 {
+    font-family: 'Hija de arquitectos', cursiva; color: #198754;
     display:flex;
     justify-content: space-around;
+}
+.texto{
+    font-family: 'Hija de arquitectos', cursiva; color: #198754 ;
+    display:flex;
+    justify-content: space-around;
+    
+
 }
 li{
     font-family: 'Mooli', sans-serif;
@@ -80,7 +89,7 @@ body{
 }
 
 .product-content .product-deatil span.sale {
-    background-color: #21c2f8
+    background-color: #08642e
 }
 
 .product-content .product-deatil span.discount {

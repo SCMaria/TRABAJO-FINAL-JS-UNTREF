@@ -1,14 +1,15 @@
 [
     {
-        "codigo": "Producto 1",
-        "descripcion": "Descripcion del producto 1",
-        "imagen": "imagenes TP2/jabon-natural-cuidado-personal.jpg",
-        "detalle": "Descripcion",
-        "precio": "1234.00",
+        "codigo": "Jabón de Glicerina",
+        "descripcion": "Jabón para cuerpo, manos y cara ",
+        "imagen": "imagenes TP2/jabon.jpeg",
+        "detalle": "Elaborado completamente artesanal,contiene glicerina vegetal con aceite de coco y aceites esenciales.Vienen sueltos , peso aproximdo 70 grs. ",
+        "precio": "250.00",
         "puntuacion": "*****",
         "claves": [
-            "Clave 1",
-            "Clave 2"
+            "Libre de Sulfatos",
+            "Vegano , cruelty free",
+            "Biodegradable"
         ]
     },
     {
@@ -17,22 +18,22 @@
         "imagen": "imagenes TP2/kit jabon.jpg",
         "detalle": "Descripcion",
         "precio": "120.00",
-        "puntuacion": "*****",
+        "puntuacion": "****",
         "claves": [
             "Clave 1",
             "Clave 2"
         ]
     },
     {
-        "codigo": "Producto 3",
-        "descripcion": "Descripcion del producto 3",
+        "codigo": "Peines de Madera ",
+        "descripcion": "Peines de madera paraiso 100% natural ",
         "imagen": "imagenes TP2/peine.jpg",
-        "detalle": "Descripcion",
-        "precio": "2400.00",
+        "detalle": "Son de indutria nacional ,sin tratamiento quimico ni ceras.Anti frizz(no producen estática).Disponibles con y sin mango, redondos o cuadrados.",
+        "precio": "350.00",
         "puntuacion": "*****",
         "claves": [
-            "Clave 1",
-            "Clave 2"
+            "Reducen el consumo de plástico",
+            "Evita la caída del cabello"
         ]
     },
     {
@@ -40,7 +41,7 @@
         "descripcion": "Descripcion del producto 4",
         "imagen": "imagenes TP2/cepillo.jpg",
         "detalle": "Descripcion",
-        "precio": "$700.00",
+        "precio": "700.00",
         "puntuacion": "*****",
         "claves": [
             "Clave 1",
@@ -48,21 +49,21 @@
         ]
     },
     {
-        "codigo": "Producto 5",
-        "descripcion": "Descripcion del producto 5",
-        "imagen": "imagenes TP2/jabon-natural-cuidado-personal.jpg",
-        "detalle": "Descripcion",
-        "precio": 1234.00,
+        "codigo": "Cepillo de Dientes",
+        "descripcion": "Cepillo de dientes de bambú ",
+        "imagen": "imagenes TP2/jabon.jpeg",
+        "detalle": "Realizado con bambú una de las plantas con mayor tasa de crecimiento del mundo,el mango y la caja son amigables con el medio ambiente.Hay variedad para adultos y niños ,serda suave, media o dura. ",
+        "precio": 400.00,
         "puntuacion": "*****",
         "claves": [
-            "Clave 1",
-            "Clave 2"
+            "97% biodegradables",
+            "Vida útil de 3 meses aprox."
         ]
     },
     {
         "codigo": "Producto 6",
         "descripcion": "Descripcion del producto 6",
-        "imagen": "imagenes TP2/jabon-natural-cuidado-personal.jpg",
+        "imagen": "imagenes TP2/peine.jpg",
         "detalle": "Descripcion",
         "precio": 1234.00,
         "puntuacion": "*****",
