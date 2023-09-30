@@ -4,7 +4,7 @@
         "descripcion": "Descripcion del producto 1",
         "imagen": "imagenes TP2/jabon-natural-cuidado-personal.jpg",
         "detalle": "Descripcion",
-        "precio": 1234.00,
+        "precio": "1234.00",
         "puntuacion": "*****",
         "claves": [
             "Clave 1",
@@ -16,7 +16,7 @@
         "descripcion": "Descripcion del producto 2",
         "imagen": "imagenes TP2/kit jabon.jpg",
         "detalle": "Descripcion",
-        "precio": 120.00,
+        "precio": "120.00",
         "puntuacion": "*****",
         "claves": [
             "Clave 1",
@@ -28,7 +28,7 @@
         "descripcion": "Descripcion del producto 3",
         "imagen": "imagenes TP2/peine.jpg",
         "detalle": "Descripcion",
-        "precio": 2400.00,
+        "precio": "2400.00",
         "puntuacion": "*****",
         "claves": [
             "Clave 1",
@@ -40,7 +40,7 @@
         "descripcion": "Descripcion del producto 4",
         "imagen": "imagenes TP2/cepillo.jpg",
         "detalle": "Descripcion",
-        "precio": 3700.00,
+        "precio": "$700.00",
         "puntuacion": "*****",
         "claves": [
             "Clave 1",
