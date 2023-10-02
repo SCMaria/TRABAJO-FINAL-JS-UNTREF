@@ -324,7 +324,19 @@ body{
     width: calc(100% - 70px)
 }
 
+#section{
+    display: flex;
+    flex-wrap: wrap;
+}
 
+
+.img-responsive {
+    width:240px;
+    display: flex;
+    flex-direction: column;
+    margin:auto
+
+}
 
 @media only screen and (min-width:1024px) {
 
@@ -349,22 +361,10 @@ body{
 }
 
 
-#section{
-    display: flex;
-    flex-wrap: wrap;
-}
 
 
-.img-responsive {
-    width:240px;
-    display: flex;
-    flex-direction: column;
-    margin:auto
-
-}
-
-@media screen and (min-width: 768px){
+@media screen and (min-width: 1024px){
     .img-responsive{
-        width: 200px;
+        width: 310px;
     }
 }
